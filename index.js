@@ -1,5 +1,5 @@
 let nomeDoHeroi = "John Snow";
-let xp = 0;
+let xp = 9000;
 
 function determinarNivel(xp) {
   if (xp <= 999) {
@@ -22,7 +22,7 @@ function determinarNivel(xp) {
 }
 
 let nivel = determinarNivel(xp);
-console.log(`${nomeDoHeroi} é ${nivel}`);
+console.log(`${nomeDoHeroi}, ${nivel}`);
 
 if (xp > 9000 && xp <= 9999) {
   console.log("Parabéns, você está prestes a se tornar IMORTAL!");
